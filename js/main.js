@@ -56,3 +56,16 @@ for (let index = 0; index < members.length; index++) {
     </div>
     `
 }
+let newArray=document.querySelectorAll('.card');
+let focus=0;
+setInterval(ImgFocus,2000)
+function ImgFocus(){
+    for (let index = 0; index < newArray.length; index++) {
+        newArray[index].classList.remove('grow');  
+    }
+    if(focus==newArray.length){
+        focus=0;
+    }
+    newArray[focus].classList.add('grow');
+    focus+=1;
+}

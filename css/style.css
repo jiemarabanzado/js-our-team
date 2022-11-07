@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 .container{
     max-width: 1300px;
@@ -14,15 +15,24 @@
 }
 .card{
     border: 1px solid lightgray;
-    width: calc(100%/6 - 20px);
+    width: calc(100%/6 - 30px);
+    opacity: 0.6;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.grow{
+    transition: ease 2s;
+    transform: scale(1.2);
+    opacity: 1;
+    
 }
 .card-img{
     width: 100%;
-
 }
 img{
    width: 100%;
 }
 .who{
     padding: 5px 10px;
+    
 }
