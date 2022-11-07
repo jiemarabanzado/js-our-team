@@ -34,5 +34,16 @@ console.log(members)
 for (let index = 0; index < members.length; index++) {
     const element = members[index];
     console.log(element.role);
-    
+}
+
+let el=document.getElementById('members');
+for (let index = 0; index < members.length; index++) {
+    const element = members[index];
+    el.innerHTML+=`
+            <tr>
+                <td>${element.NameMember}</td>
+                <td>${element.role}</td>
+                <td>${element.imgSource}</td>
+            </tr>
+    `
 }
