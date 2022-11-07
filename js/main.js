@@ -58,7 +58,7 @@ for (let index = 0; index < members.length; index++) {
 }
 let newArray=document.querySelectorAll('.card');
 let focus=0;
-setInterval(ImgFocus,2000)
+setInterval(ImgFocus,3000)
 function ImgFocus(){
     for (let index = 0; index < newArray.length; index++) {
         newArray[index].classList.remove('grow');  

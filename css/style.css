@@ -19,6 +19,8 @@
     opacity: 0.6;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: scale(1);
+    transition: 2s;
 }
 .grow{
     transition: ease 2s;
