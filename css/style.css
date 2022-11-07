@@ -33,6 +33,8 @@
 }
 img{
    width: 100%;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
 }
 .who{
     padding: 5px 10px;
