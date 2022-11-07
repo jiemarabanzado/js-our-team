@@ -2,5 +2,27 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    background-color: pink;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+#card-grid{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    border: 1px solid lightgray;
+    width: calc(100%/6 - 20px);
+}
+.card-img{
+    width: 100%;
+
+}
+img{
+   width: 100%;
+}
+.who{
+    padding: 5px 10px;
 }
